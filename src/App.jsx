@@ -1,13 +1,22 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  BrowserRouter,
+} from "react-router-dom";
 import Home from "./Home/home.jsx";
+import Login from "./Login/login.jsx";
 import "./App.css";
 
 function App() {
   return (
-    <div id="login-page">
-      <p style={{ color: "white" }}>Hi</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />}></Route>
+        <Route path="/home" element={<Home />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
