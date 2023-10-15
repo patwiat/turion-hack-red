@@ -4,8 +4,10 @@ const Home = () => {
     <>
       <div id="window"></div>
       <div id="dashboard">
-        <button>Back</button>
-        <button>Forward</button>
+        <div id="buttons">
+          <button id="back"></button>
+          <button id="forward"></button>
+        </div>
       </div>
     </>
   );
