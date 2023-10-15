@@ -1,5 +1,14 @@
+import "./home.css";
 const Home = () => {
-  return <></>;
+  return (
+    <>
+      <div id="window"></div>
+      <div id="dashboard">
+        <button>Back</button>
+        <button>Forward</button>
+      </div>
+    </>
+  );
 };
 
 export default Home;

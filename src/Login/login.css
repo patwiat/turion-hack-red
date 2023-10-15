@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/assets/login-background.png");
+   
+  }
+
+#login-page{
+    height: 100vh;
+}
