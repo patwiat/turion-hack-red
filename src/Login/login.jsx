@@ -4,7 +4,7 @@ const Login = () => {
   return (
     <>
       <p>Hi</p>
-      <button href="/home">Next</button>
+      <a href="/home">Next</a>
     </>
   );
 };

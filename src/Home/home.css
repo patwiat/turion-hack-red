@@ -1,4 +1,46 @@
 #dashboard{
-    height: 30vh;
-    background-color: grey;
+    height: 20vh;
+    background-color: rgb(202, 202, 202);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display:flex;
+    justify-content: center;
 }
+
+#buttons{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+button {
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 80px solid;
+    border-left: none;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  #back {
+    margin-right: 20px;
+    border-right-color: grey;
+
+  }
+
+  #back:hover{
+    border-right-color: rgb(32, 32, 32) !important;
+  }
+  
+  #forward {
+    border-left: 80px solid;
+    border-right: none;
+    border-left-color: grey;
+  }
+
+  #forward:hover{
+    border-left-color: rgb(32, 32, 32) !important;
+  }
