@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("src/assets/login-background.png");
+    background-image: url("src/assets/starry-night.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
    
@@ -85,7 +85,6 @@ body{
     font-size: 20px;
     cursor: pointer;
     margin-top: 20px;
-    margin-left: 200px;
     position: center;
   }
 
