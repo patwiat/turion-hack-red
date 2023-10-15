@@ -1,10 +1,91 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("/assets/login-background.png");
+    background-image: url("src/assets/login-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
    
   }
 
-#login-page{
+  .login-container {
     height: 100vh;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .transparent-box {
+    background-color: rgba(115, 115, 115, 0.5); /* Use rgba to set transparency */
+    width: 571px;
+    height: 490px;
+    border-radius: 20px; /* Rounded corners for the box */
+    text-align: center;
+    color: white; /* Text color inside the box */
+  }
+
+  .login-text {
+    color:white;
+    font-family: Inika;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: normal;
+    text-align: left;
+    padding-left: 50px;
+    margin-bottom: 10px;
+  }
+
+  .subtext {
+    color:white;
+    font-family: Inika;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin: 0;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+    margin-bottom: 5px; /* Add spacing between label and input */
+  }
+  
+  input {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 26px;
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent white */
+    color: white;
+  }
+  
+  button {
+    width: 209px;
+    height: 49px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 200px;
+    position: center;
+  }
+
